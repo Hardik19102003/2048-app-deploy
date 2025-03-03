@@ -15,5 +15,5 @@ oidc_id=$(aws eks describe-cluster --name $cluster_name --query "cluster.identit
 If not, run the below command
 
 ```
-eksctl utils associate-iam-oidc-provider --cluster $demo-cluster --approve
+eksctl utils associate-iam-oidc-provider --cluster demo-cluster --approve
 ```
